@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(132, 215, 215); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.ul-1 {
+    width: 20%;
+}
+
+.ul-2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.ul-3 {
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.ul-3 button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.image-01{ width: 40px;}
+
+
+.container {
+    width: 100%;
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 40%;
+    min-height: 500px;
+    display: flex;
+    padding-left: 150px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tage {
+    font-size: 15px;
+    background-color: rgb(121, 243, 116);
+    width: 100px;
+    font-weight: 400;
+
+}
+
+.text h1 {
+    width: 400px;
+    /* background-color: rgb(72, 68, 76); */
+    font-size: 80px;
+}
+
+.text h3 {
+    color: rgb(168, 166, 166);
+    font-size: 30px;
+    font-weight: 400;
+    width: 400px;
+   
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+span {
+    /* background-color: cornsilk; */
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+span button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.tage-2 {
+    padding-top: 70px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    width: 40%;
+    background-color: rgb(163, 227, 159);
+    position: relative;
+}
+
+.image-1{ width: 300px;
+border-radius: 10px;
+position: absolute;
+left: -50px;
+
+}
+.image-2{ width: 290px;
+     position: absolute;
+left: 150px;
+top: -30px;
+border-radius: 10px;
+
+}
